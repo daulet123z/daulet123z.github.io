@@ -1,12 +1,13 @@
 # Portfolio: landing pages for small businesses
 
-A one-page portfolio that links to three landing page projects. Plain HTML, CSS and JavaScript, no build step.
+A one-page portfolio that links to four landing page projects. Plain HTML, CSS and JavaScript, no build step.
 
 | Project | Live site | Code |
 |---|---|---|
 | Larkhaven Coffee (coffee shop) | [daulet123z.github.io/coffee-shop-landing](https://daulet123z.github.io/coffee-shop-landing/) | [coffee-shop-landing](https://github.com/daulet123z/coffee-shop-landing) |
 | Brass & Bristle (barbershop) | [daulet123z.github.io/barbershop-landing](https://daulet123z.github.io/barbershop-landing/) | [barbershop-landing](https://github.com/daulet123z/barbershop-landing) |
 | Velvet & Bloom (beauty salon) | [daulet123z.github.io/beauty-salon-landing](https://daulet123z.github.io/beauty-salon-landing/) | [beauty-salon-landing](https://github.com/daulet123z/beauty-salon-landing) |
+| Brightnook (cleaning service, Bootstrap 5) | [daulet123z.github.io/cleaning-service-landing](https://daulet123z.github.io/cleaning-service-landing/) | [cleaning-service-landing](https://github.com/daulet123z/cleaning-service-landing) |
 
 ## Structure
 
