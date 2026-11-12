@@ -248,6 +248,16 @@ ol {
   background-color: #ffffff;
 }
 
+.btn-outline-light {
+  color: var(--color-on-dark);
+  border-color: var(--color-on-dark);
+}
+
+.btn-outline-light:hover {
+  color: var(--color-dark);
+  background-color: var(--color-on-dark);
+}
+
 .link-arrow {
   font-weight: 600;
   color: var(--color-text);

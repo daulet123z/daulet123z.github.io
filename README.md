@@ -28,7 +28,7 @@ Then open <http://localhost:5500>.
 ## Editing
 
 - **Your name:** replace `daulet123z` in the logo and footer of `index.html`.
-- **Fiverr link:** in the Contact section, uncomment the Fiverr button and put your profile URL in `href`.
+- **Fiverr link:** the "Hire me" button in the header and "Hire me on Fiverr" in the Contact section point to the public profile `https://www.fiverr.com/daulet_turarbek`. To link a specific gig instead, change both `href` values.
 - **Add a project:** copy one `<article class="project">` block, then change the texts, links and the two screenshots. Every second project automatically shows its image on the other side.
 - **Screenshots:** a desktop shot at 1440×900 scaled to 1200 px wide, and a phone shot at 390×844. Compress them as JPG (quality around 75–80).
 - **Colors and fonts:** edit the `:root` block in `css/style.css`. If you change fonts, also update the Google Fonts `<link>` in `index.html`.
