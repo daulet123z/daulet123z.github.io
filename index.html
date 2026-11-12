@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing pages for small businesses — Portfolio</title>
+  <meta name="description" content="Freelance web developer building fast, responsive landing pages for small businesses in plain HTML, CSS and JavaScript. See three recent concept projects.">
+  <meta name="theme-color" content="#17171c">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Replace the handle with your name or brand -->
+      <a href="#top" class="logo" aria-label="Portfolio home">
+        <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="logo-text">daulet123z</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-sm">Hire me</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Freelance web developer</p>
+          <h1 id="hero-title">Landing pages that bring small businesses new customers</h1>
+          <p class="hero-sub">Fast, mobile-first one-page websites for cafés, salons, barbershops and other local businesses. Hand-coded, accessible and easy to update.</p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">See my work</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+          <ul class="hero-facts">
+            <li>Mobile-first</li>
+            <li>No frameworks</li>
+            <li>Free hosting setup</li>
+          </ul>
+        </div>
+
+        <!-- Decorative collage of the three projects (hidden on small screens) -->
+        <div class="hero-collage" aria-hidden="true">
+          <img src="assets/barber-desktop.jpg" alt="" width="1200" height="750" class="collage-1">
+          <img src="assets/salon-desktop.jpg" alt="" width="1200" height="750" class="collage-2">
+          <img src="assets/coffee-desktop.jpg" alt="" width="1200" height="750" class="collage-3">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Work ============ -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="work-title">Three businesses, one solid foundation</h2>
+          <p>Concept projects for fictional businesses. Each one is a complete, responsive landing page with its own brand, palette and typography.</p>
+        </header>
+
+        <div class="projects">
+          <!-- To add a project: copy one <article> and change the texts, links and screenshots -->
+          <article class="project reveal" aria-labelledby="p1-title">
+            <div class="project-media">
+              <div class="browser">
+                <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i></span>
+                <img src="assets/coffee-desktop.jpg" alt="Larkhaven Coffee landing page on a desktop screen" width="1200" height="750" loading="lazy">
+              </div>
+              <div class="phone">
+                <img src="assets/coffee-mobile.jpg" alt="Larkhaven Coffee landing page on a phone" width="390" height="844" loading="lazy">
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-niche">Coffee shop</p>
+              <h3 id="p1-title">Larkhaven Coffee</h3>
+              <p>A warm, light landing page for a neighbourhood roastery: story, menu grouped by category, gallery, reviews, opening hours and a contact form.</p>
+              <ul class="tags">
+                <li>Light theme</li>
+                <li>Menu with prices</li>
+                <li>Form validation</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://daulet123z.github.io/coffee-shop-landing/" class="btn btn-primary">Live site<span class="visually-hidden"> of Larkhaven Coffee</span> <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/daulet123z/coffee-shop-landing" class="link-arrow">Source code<span class="visually-hidden"> of Larkhaven Coffee</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" aria-labelledby="p2-title">
+            <div class="project-media">
+              <div class="browser">
+                <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i></span>
+                <img src="assets/barber-desktop.jpg" alt="Brass and Bristle barbershop landing page on a desktop screen" width="1200" height="750" loading="lazy">
+              </div>
+              <div class="phone">
+                <img src="assets/barber-mobile.jpg" alt="Brass and Bristle barbershop landing page on a phone" width="390" height="844" loading="lazy">
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-niche">Barbershop</p>
+              <h3 id="p2-title">Brass &amp; Bristle</h3>
+              <p>A bold, dark design with brass accents for a classic barbershop: services and prices with durations, gallery, reviews and a booking request form.</p>
+              <ul class="tags">
+                <li>Dark theme</li>
+                <li>Services &amp; prices</li>
+                <li>Booking form</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://daulet123z.github.io/barbershop-landing/" class="btn btn-primary">Live site<span class="visually-hidden"> of Brass and Bristle</span> <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/daulet123z/barbershop-landing" class="link-arrow">Source code<span class="visually-hidden"> of Brass and Bristle</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" aria-labelledby="p3-title">
+            <div class="project-media">
+              <div class="browser">
+                <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i></span>
+                <img src="assets/salon-desktop.jpg" alt="Velvet and Bloom beauty salon landing page on a desktop screen" width="1200" height="750" loading="lazy">
+              </div>
+              <div class="phone">
+                <img src="assets/salon-mobile.jpg" alt="Velvet and Bloom beauty salon landing page on a phone" width="390" height="844" loading="lazy">
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-niche">Beauty salon</p>
+              <h3 id="p3-title">Velvet &amp; Bloom</h3>
+              <p>A soft, elegant page for a hair, nails and skin studio: services in three categories, gallery, client reviews, hours and an appointment request form.</p>
+              <ul class="tags">
+                <li>Elegant serif</li>
+                <li>Three service groups</li>
+                <li>Appointment form</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://daulet123z.github.io/beauty-salon-landing/" class="btn btn-primary">Live site<span class="visually-hidden"> of Velvet and Bloom</span> <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/daulet123z/beauty-salon-landing" class="link-arrow">Source code<span class="visually-hidden"> of Velvet and Bloom</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Services ============ -->
+    <section class="section section-alt" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">What you get</p>
+          <h2 id="services-title">Everything a small business page needs</h2>
+        </header>
+
+        <ul class="features" data-reveal-stagger>
+          <li class="feature reveal">
+            <h3>Looks great on every phone</h3>
+            <p>Mobile-first layouts tested from 360px phones to wide desktop screens.</p>
+          </li>
+          <li class="feature reveal">
+            <h3>Fast and lightweight</h3>
+            <p>Plain HTML, CSS and JavaScript with compressed images. No heavy frameworks.</p>
+          </li>
+          <li class="feature reveal">
+            <h3>Accessible and SEO-friendly</h3>
+            <p>Semantic markup, alt text, readable contrast and keyboard-friendly navigation.</p>
+          </li>
+          <li class="feature reveal">
+            <h3>Contact or booking form</h3>
+            <p>Validated form that can send requests to your inbox via Netlify Forms or Formspree.</p>
+          </li>
+          <li class="feature reveal">
+            <h3>Your brand, your colours</h3>
+            <p>Colours, fonts and spacing live in one place, so updates take minutes.</p>
+          </li>
+          <li class="feature reveal">
+            <h3>Online and ready to share</h3>
+            <p>Deployed to free hosting (Netlify or GitHub Pages) or your own domain.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Process ============ -->
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 id="process-title">From brief to live site in three steps</h2>
+        </header>
+
+        <ol class="steps" data-reveal-stagger>
+          <li class="step reveal">
+            <h3>Brief</h3>
+            <p>You tell me about your business, customers and goals. I suggest the sections, style and colours.</p>
+          </li>
+          <li class="step reveal">
+            <h3>Design &amp; build</h3>
+            <p>I build the page and share a live preview link, so you can check it on your own phone and send feedback.</p>
+          </li>
+          <li class="step reveal">
+            <h3>Launch</h3>
+            <p>I put the site online and show you how to change texts, prices and photos yourself.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner reveal">
+        <h2 id="contact-title">Have a project in mind?</h2>
+        <p>Tell me about your business and what you need. I'll reply with ideas, a plan and a quote.</p>
+        <div class="contact-actions">
+          <!-- Add your Fiverr profile link here, for example:
+               <a href="https://www.fiverr.com/YOUR_USERNAME" class="btn btn-light">Hire me on Fiverr</a> -->
+          <a href="https://github.com/daulet123z" class="btn btn-light">GitHub profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> daulet123z. Built with plain HTML, CSS and JavaScript.</p>
+      <p>Showcased businesses are fictional. Photos on the project sites: <a href="https://unsplash.com/">Unsplash</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
